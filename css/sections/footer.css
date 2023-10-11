@@ -1,0 +1,39 @@
+footer{
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--dark-cyan);
+}
+
+.footer__logo{
+    font-family: var(--plus-jakarta-sans);
+    color: var(--cyan);
+
+    user-select: none;
+}
+
+.footer__nav{
+    margin: 24px 0;
+}
+.footer__nav ul{
+    font-family: var(--plus-jakarta-sans);
+
+    list-style: none;
+
+    display: flex;
+    gap: 50px;
+}
+.footer__nav a{
+    text-decoration: none;
+
+    color: var(--cyan);
+}
+
+.footer__socials ul{
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+}

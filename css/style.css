@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+
+/* other css file imports */
+@import url("./sections/header.css");
+@import url("./sections/banner.css");
+@import url("./sections/testimonials.css");
+@import url("./sections/gallery.css");
+@import url("./sections/footer.css");
+
+
+:root {
+    --fraunces: 'Fraunces', serif;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+    --primary-color:white;
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --cyan: hsl(167, 40%, 24%);
+    --blue: hsla(195, 67%, 16%, 0.35);
+    --dark-cyan: hsl(168, 34%, 41%);
+
+
+    --black-200: #020202;
+    --black-300: #333333;
+    --black-400: #1f1e31;
+    --black-500: #555555;
+    --gray-100: #7a7a7a;
+
+    --color-white: #fff;
+    --color-creamson: #fff0de;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+
+

@@ -1,0 +1,32 @@
+.gallery{
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.gallery__set{
+    display: flex;
+    flex-direction: row;
+
+    width: 50%;
+}
+.gallery img{
+    max-width: 320px;
+    min-width: 100px;
+}
+
+
+@media screen and (max-width: 800px){
+    .gallery__set{
+        flex-direction: column;
+    }
+    .gallery__set img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
